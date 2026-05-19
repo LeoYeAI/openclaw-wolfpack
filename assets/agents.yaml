@@ -1,0 +1,59 @@
+# ============================================================
+# 🐺 OpenClaw Wolfpack — Agent Configuration Manifest
+# Powered by MyClaw.ai
+# ============================================================
+
+project:
+  name: "openclaw-wolfpack"
+  version: "1.0.0"
+  description: "Multi-Agent collaborative team for AI research. Powered by MyClaw.ai"
+  homepage: "https://myclaw.ai"
+
+agents:
+  - id: "planner"
+    name: "🧠 Planner"
+    emoji: "🧠"
+    role: "Task decomposition, progress tracking, cross-agent coordination"
+    protected: true
+
+  - id: "ideator"
+    name: "💡 Ideator"
+    emoji: "💡"
+    role: "Idea generation, novelty assessment, contribution refinement"
+    protected: true
+
+  - id: "critic"
+    name: "🎯 Critic"
+    emoji: "🎯"
+    role: "SHARP taste evaluation, quality gates, anti-pattern detection"
+    protected: true
+
+  - id: "surveyor"
+    name: "📚 Surveyor"
+    emoji: "📚"
+    role: "Literature search, paper analysis, research gap identification"
+    protected: true
+
+  - id: "coder"
+    name: "💻 Coder"
+    emoji: "💻"
+    role: "Algorithm implementation, experiment execution, code optimization"
+    protected: true
+
+  - id: "writer"
+    name: "✍️ Writer"
+    emoji: "✍️"
+    role: "Paper writing, LaTeX formatting, academic expression"
+    protected: true
+
+  - id: "reviewer"
+    name: "🔍 Reviewer"
+    emoji: "🔍"
+    role: "Internal peer review, weakness diagnosis, rebuttal strategy"
+    protected: true
+
+  - id: "scout"
+    name: "📰 Scout"
+    emoji: "📰"
+    role: "Daily paper digest, trend analysis, competitive intelligence"
+    protected: true
